@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#delete-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#delete-button:hover {
+    background-color: #ff1a1a;
+}
+
+#user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#user-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#user-list li label {
+    margin-left: 10px;
+}
